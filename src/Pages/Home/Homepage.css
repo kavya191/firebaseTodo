@@ -1,0 +1,85 @@
+.main_home{
+    height: 400px;
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    height: 400px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .login_title{
+    display: flex;
+     justify-content: center;
+      align-items: center;
+      margin-top: 6rem;
+      font-size: larger;
+  }
+  .login_para{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 1rem;
+  }
+  .btn_style{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 1rem;
+  }
+  .btn_google{
+ background-color: white;
+    margin-right: 2px;
+   
+  }
+ .btn{
+    width: 12rem;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+  .main_home{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+.btn_style{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+.btn_google{
+background-color: white;
+  margin-right: 2px;
+ 
+}
+.btn{
+  width: 20rem;
+  height: 50px;
+ 
+}
+.column {
+
+  width: 100%;
+  height: 400px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.login_para{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   padding: 1.5rem;
+}
+}

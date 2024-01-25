@@ -1,0 +1,192 @@
+.todo_main{
+    /* min-height: 100vh;
+    min-width: 100%; */
+    /* background-color: blue; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  .column1 {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.todo_mainleft{
+    min-width: 50%;
+    min-height: 600px;
+    background-color: blueviolet;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.todo_mainRight{
+    /* min-width: 50%;
+    min-height: 600px; */
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.todo_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+.todo_para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: Roboto;
+/* font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em; */
+text-align: center;
+
+}
+.todo_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo_title{
+    margin-top: 20px;
+   
+    
+}
+.todo_title>input{
+    height: 30px;
+    color: black;
+}
+.todo_desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    Padding:8px, 12px, 8px, 12px;
+}
+.todo_desc>input{
+    height: 30px;
+    color: black;
+}
+.todo_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+Button{
+    height: 40px;
+    width: 120px;
+    padding-bottom: 10px;
+    color: #1890FF;
+  
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.todo_sf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.todo_search{
+   margin-top: 3rem;
+}
+.todoData{
+    flex-wrap: wrap;
+}
+.todo_filter{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  
+}
+.todos{
+     margin-top: 3rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .todo_main{
+        min-height: 100vh;
+        min-width: 100%;
+      
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column {
+        /* float: left; */
+        width: 100%;
+      }
+      
+      .column1 {
+        /* float: left; */
+        width: 100%;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .todolist{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        margin-top: 13rem;
+    }
+    .todo_form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .todo_title{
+        margin-top: 20px;
+       
+        
+    }
+    .todo_title>input{
+        height: 30px;
+        color: black;
+        width: 20rem;
+    }
+    .todo_desc{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        Padding:8px, 12px, 8px, 12px;
+    }
+    .todo_desc>input{
+        height: 30px;
+        color: black;
+        width: 20rem;
+    }
+    Button{
+        height: 40px;
+        width: 100px;
+        padding-bottom: 10px;
+        color: #1890FF;
+      
+    }
+}
